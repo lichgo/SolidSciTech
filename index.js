@@ -40,7 +40,7 @@ function getContent(id) {
 	if (c) return c;
 
 	entry = entries[id];
-	html += '<h1>' + entry.subject + '</h1>';
+	html += '<h1 style="background:url(' + entry.id + '.jpg); background-size:cover;">' + entry.subject + '</h1>';
 	for (i = 0; i < entry.cat.length; ++i) {
 		html += '<h2><span class="cn">' + entry.cat[i].cn + '</span><span class="en">' + entry.cat[i].en + '</span></h2>';
 	}

@@ -15,7 +15,7 @@ var data = [
 			{ "cn": "平面发射CRT", "en": "Surface-conduction Electron-Emitter Display" },
 			{ "cn": "厚膜电致发光技术", "en": "Thick-film Dielectric Electroluminescence" },
 			{ "cn": "有机发光二极管", "en": "OLED" },
-			{ "cn": "发光元器件", "en": "" },
+			{ "cn": "发光元器件", "en": "&nbsp;" },
 			{ "cn": "发光二极管", "en": "LED" },
 			{ "cn": "有机发光晶体管", "en": "Organic Light Emitting Transistors" }
 		]

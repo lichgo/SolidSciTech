@@ -27,6 +27,7 @@ body {
 #navigator li {
 	padding: 15px 0px 15px 50px;
 	border-bottom: 1px dotted rgba(0,0,0,0.2);
+	background: url(icon.png) no-repeat 20px 50%;
 }
 #navigator li:first-child {
 	border-top: 1px dotted rgba(0,0,0,0.2);
@@ -38,8 +39,10 @@ body {
 	-ms-transition: background 2s;
 }
 
-#sidebar h1 {
+#sidebar h1  {
 	margin: 40px 0px 30px 20px;
+}
+#sidebar h1 a {
 	font-size: 32px;
 }
 
@@ -49,15 +52,40 @@ body {
 	height: 100%;
 	padding: 40px 40px 40px 320px;
 	box-sizing: border-box;
-	background: url(../img/bg.png) no-repeat;
+	background: url(bg.png) no-repeat;
 	background-position: top right;
+}
+#slideshow {
+	width: 650px;
+	margin-top: 70px;
+}
+#slideshow li {
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	-webkit-transition: opacity 1s;
+	-ms-transition: opacity 1s;
+	opacity: 0.5;
+}
+#slideshow li:hover {
+	opacity: 1;
+	cursor: pointer;
 }
 
 #content h1 {
+	color: #fff;
 	width: 400px;
 	height: 300px;
 	background: #efefef;
 	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-top: 250px;
+	text-align: right;
+	text-shadow: rgba(0,0,0,0.8) 1px 1px 1px;
+	box-sizing: border-box;
 }
 #content h2 {
 	background: #168391;
